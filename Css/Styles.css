@@ -43,3 +43,8 @@ header
 {
 	border: 2px solid white;
 }
+.logo img
+{
+	width: 150px;
+	height:auto;
+}
