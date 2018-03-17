@@ -4,13 +4,16 @@
 	padding 0;
 }
 
+
+
 header
 {
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/bg.jpg);
 	height: 100vh;
-	backgound-size: cover;
+	background-size: cover;
 	background-position: center;
 }
+
 
 .main-nav
 {
@@ -62,10 +65,11 @@ header
 
 .hero
 {
-	position: absolute;
+	/*position: absolute;
 	width: 1200px;
 	margin-left: 0;
-	margin-top: 0;
+	margin-top: 0;*/
+	position: center;
 }
 
 h1
@@ -95,7 +99,7 @@ h2
 .button
 {
 	margin-top: 30px;
-	margin-left: 440px;
+	text-align: center;
 	
 }
 
