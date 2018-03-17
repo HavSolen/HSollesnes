@@ -17,7 +17,7 @@ header
 	float: right;
 	list-style: none;
 	margin-top: 30px;
-	margin-right: 40px;
+	margin-right: 30px;
 
 }
 .main-nav li
@@ -28,21 +28,87 @@ header
 {
 	color: white;
 	text-decoration: none;
-	padding: 8px 30px;
-	font-family: "Roboto", sans-serif;
+	padding: 10px 30px;
+	font-family: "Times New Roman", sans-serif;
 	font-size: 15px;
-	border: 2px solid black;
+	float: right;
+	
+	
 	
 }
 .main-nav li.active a
 {
-	 
+	 border: 2px solid black;
 	 
 }
 .main-nav li a:hover 
 {
 	border: 2px solid white;
+	
+	
+	
 }
+
+.body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max width: 1200px;
+	margin: auto;
+}
+
+.hero
+{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 175px;
+	
+}
+
+.button
+{
+	margin-top: 30px;
+	margin-left: 440px;
+	
+}
+
+.btn
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.btn-one
+{
+	background-color: blackred;
+	font family: "Times New Roman", sans-serif;
+}
+
+.btn-two:hover
+{
+	background-color: black;
+}
+
+	
+	
+/* Adds a nice config if you want to add a logo.
 .logo img
 {
 	width: 100px;
@@ -54,6 +120,4 @@ header
 	
 	
 }
-.logo :hover
-{
-	border: 1px solid white;
+*/
