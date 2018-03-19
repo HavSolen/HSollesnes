@@ -54,7 +54,7 @@ html
 
 .body
 {
-	font-family: monospace;
+	font-family: monospace, sans-serif;
 }
 
 .login-page
