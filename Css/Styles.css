@@ -60,7 +60,7 @@ html
 .login-page
 {
 	width: 360px;
-	padding: 10% 0 0;
+	padding: 5% 0 0;
 	margin: auto;
 }
 
@@ -71,7 +71,7 @@ html
 	background: transparent;
 	max-width: 360px;
 	margin: 0 auto 100px;
-	padding: 45px;
+	padding: 15px;
 	text-align: center;
 	
 }
@@ -225,13 +225,28 @@ p
 	text-transform: uppercase;
 	border-radius: 4px;
 	
+	
 }
 
 .btn-one
 {
 	background-color: #000080;
-	font family: "Times New Roman", sans-serif;
+	font-family: "Times New Roman", sans-serif;
+	
 }
+.btn-login
+{
+	font-family: "Times New Roman", sans-serif;
+	
+}
+
+.btn-login:hover
+{
+	font-family: "Times New Roman", sans-serif;
+	background-color: #000080;
+	
+}
+
 
 .btn-two:hover
 {
