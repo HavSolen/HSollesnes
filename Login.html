@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title>Home - HSollesnes</title>
+<link href="Css/Styles.css" rel="stylesheet"  type="text/css">
+
+</head>
+
+
+<body>
+
+	<header>
+	
+		<div class="hero">
+		<h1>Login and Registration</h1>
+		
+			<div class="button">
+				<a href="Index.html" class="btn btn-one"> HOME</a>
+				<a href="AboutMe.html" class="btn btn-two"> ABOUT ME</a>
+				<a href="Contact.html" class="btn btn-two"> CONTACT</a>
+				<a href="MySkills.html" class="btn btn-two"> MY SKILLS</a>
+				<a href="Projects.html" class="btn btn-two"> PROJECTS</a>
+				<a href="Snake.html" class="btn btn-two"> SNAKE</a>
+				
+				
+		
+		</div>
+		
+		<div class="login-page">
+		<div class="form">
+			<form class="register-form">
+			<input type="text" placeholder="Name" required />
+			<input type="text" placeholder="E-Mail" required />
+			<input type="password" placeholder="Password" required />
+			<button>Create User</button>
+			<p class="message">Already Registered? <a href="#"><br>Login</p>
+			</form>
+			
+			<form class="login-form">
+			<input type="text" placeholder="E-Mail" required />
+			<input type="password" placeholder="Password" required />
+			<button>Login</button>
+			<p class="message"><a href="#"> Not Registered?</p>
+			</form>
+		</div>
+		</div>
+		
+		<script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+		</script>
+		
+		<script>
+		$('.message a').click(function(){
+		$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+		});
+		</script>
+		
+	
+		
+		
+		
+			
+			
+			
+			
+			
+		
+	
+	</header>
+	
+
+
+</body>
+
+
+
+
+
+</html>
