@@ -12,6 +12,7 @@ html
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
+	text-align: center
 }
 
 
@@ -55,6 +56,7 @@ html
 .body
 {
 	font-family: monospace, sans-serif;
+
 }
 
 .login-page
@@ -107,7 +109,7 @@ html
 	background: #483D8B;
 }
 
-.form .register-form{
+.form .login-form{
 	display: none;
 }
 
@@ -166,7 +168,7 @@ p
 	text-transform: uppercase;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 50px;
 	
 	
 }
@@ -176,21 +178,29 @@ p
 	color: white;
 	text-transform: uppercase;
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 	margin-top: 80px;
-	padding-left: 500px;
+	
+	
 	
 	
 }
+
+ul{
+	list-style-type: none;
+}
+
+
 
 .projectprogress
 {
 	color: white;
 	text-transform: uppercase;
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 	margin-top: 80px;
-	padding-left: 500px;
+	
+	
 	
 	
 }
@@ -200,9 +210,10 @@ p
 	color: white;
 	text-transform: uppercase;
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 	margin-top: 20px;
-	padding-left: 500px;
+	
+	
 	
 	
 	
@@ -224,6 +235,7 @@ p
 	font-size: 13px;
 	text-transform: uppercase;
 	border-radius: 4px;
+	background-color: rgba(0,0,0,0.5);
 	
 	
 }
@@ -267,6 +279,9 @@ input[type=text], select, textarea {
 	position: center;
 	
 	
+	
+	
+	
 }
 
 /* Style the submit button with a specific background color etc */
@@ -289,6 +304,10 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+	display: inline-block;
+	text-align: left;
+	
+	
 }
 
 .footer1{
@@ -301,6 +320,44 @@ input[type=submit]:hover {
     height:60px; 
 	
 }
+
+.para{
+
+	/*background-color: rgba(0,0,0,0.4);*/
+	text-align: center;
+	border-radius: 2px;
+	font-family: sans-serif;
+	height: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	display: inline-block;
+	
+	
+}
+
+
+.bgg{
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 2px;
+	height: 100%;
+	display: inline-block;
+		
+}
+
+
+/*
+.bggb{
+	background-color: rgba(0,0,200,0.3);
+	border-radius: 2px;
+	height: 100%;
+	display: inline-block;
+	border: 1px solid black;
+	
+	
+	
+
+}
+*/
 
 
 
